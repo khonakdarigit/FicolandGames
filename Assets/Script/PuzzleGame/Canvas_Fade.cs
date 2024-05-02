@@ -7,7 +7,6 @@ using static System.Collections.Specialized.BitVector32;
 
 public class Canvas_Fade : MonoBehaviour
 {
-    private GameObject _canvas;
     [SerializeField] GameObject Panel;
     private Action _action;
 

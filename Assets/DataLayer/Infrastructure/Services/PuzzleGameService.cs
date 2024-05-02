@@ -31,7 +31,7 @@ namespace Assets.DataLayer.Infrastructure.Services
         public PuzzleGameLevel UpdatePuzzleLevel(PuzzleGameLevel level)
         {
             _dbService.PuzzleGameLevel.Update(level);
-            return GetPuzzleLevel(level.LevelNumber);
+            return level.CloneViaFakeSerialization();
         }
     }
 }
