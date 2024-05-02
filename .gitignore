@@ -9,8 +9,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-/[Ff]Ficoland[Gg]ames_[Bb]ack[Uu]p[Tt]his[Ff]older_[Bb]ut[Dd]ont[Ss]hip[Ii]t[Ww]ith[Yy]our[Gg]ame/
-/[Ff]Ficoland[Gg]ames_[Bb]urst[Dd]ebug[Ii]nformation_[Dd]o[Nn]ot[Ss]hip/
+FicolandGames_BackUpThisFolder_ButDontShipItWithYourGame
+FicolandGames_BurstDebugInformation_DoNotShip
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
