@@ -6,4 +6,4 @@ https://www.mongodb.com/docs/atlas/device-sdks/sdk/dotnet/unity/
 
 Install >> Manually Install a Tarball
 
-بعد از import میتوید پروژه رو اجرا کنید
+بعد از import میتونید پروژه رو اجرا کنید.
