@@ -17,8 +17,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8082771005193493944
-Transform:
+--- !u!224 &8082771005193493944
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -41,6 +41,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 9, y: 9}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8082771005193493945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,6 +72,7 @@ MonoBehaviour:
   ColliderNormalSize: 3
   audioClip_Drop: {fileID: 8300000, guid: 3d012ec22e9c02b4a824e23b5f461e31, type: 3}
   audioClip_shuffle: {fileID: 8300000, guid: 7112e6b54c0b45a4fa6e8393ae4aad2a, type: 3}
+  audioClip_youAreWinner: {fileID: 8300000, guid: c520d8bb8a9ef0d42bce3dd925c7580d, type: 3}
 --- !u!1 &8082771005366399424
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,7 +541,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.969, y: 0, z: 0}
   m_LocalScale: {x: 0.87, y: 0.87, z: 0.87}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8082771005193493944}
   m_RootOrder: -1
@@ -1102,6 +1108,7 @@ GameObject:
   - component: {fileID: 8082771006453283827}
   - component: {fileID: 8082771006453283824}
   - component: {fileID: 8082771006453283831}
+  - component: {fileID: 671378338466229260}
   m_Layer: 0
   m_Name: P1_0
   m_TagString: Puzzle
@@ -1119,7 +1126,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.969, y: 2.993, z: 0}
   m_LocalScale: {x: 0.87, y: 0.87, z: 0.87}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8082771005193493944}
   m_RootOrder: -1
@@ -1235,6 +1242,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
+--- !u!222 &671378338466229260
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8082771006453283825}
+  m_CullTransparentMesh: 1
 --- !u!1 &8082771006565594105
 GameObject:
   m_ObjectHideFlags: 0
