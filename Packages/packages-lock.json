@@ -263,7 +263,7 @@
       "url": "https://packages.unity.com"
     },
     "io.realm.unity": {
-      "version": "file:../Files/io.realm.unity-11.5.0.tgz",
+      "version": "file:D:/UnityProject/Source/FicolandGame/Files/io.realm.unity-12.1.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
