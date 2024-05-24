@@ -2,8 +2,11 @@
 Must-Have Features:
 
 Two puzzle game levels completed by moving puzzle pieces ✔️
+
 Stage number, reset button, and main menu button ✔️
+
 Victory screen ✔️
+
 Enhancing Features:
 
 Background music ✔️
