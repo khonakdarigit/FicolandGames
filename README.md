@@ -1,39 +1,32 @@
 # Ficoland Games
-**موارد ضروری**
+Must-Have Features:
 
-- دو مرحله بازی پازل با حرکت قطعات پازل تکمیل میشه ✔️
-- شماره مرحله و دکمه بازنشانی و یک دکمه برای بازگشت به منو اصلی✔️
-- صفحه پیروزی✔️
+Two puzzle game levels completed by moving puzzle pieces ✔️
+Stage number, reset button, and main menu button ✔️
+Victory screen ✔️
+Enhancing Features:
 
-**موارد تشویقی**
+Background music ✔️
+Sound effects for puzzle movement, reset, and victory screen ✔️
+Puzzle move saving for each stage ✔️
+Additional Completed Features:
 
-- موسیقی پس زمینه✔️
-- افکت صوتی برای جابجایی پازلها ، بازنشانی و صفحه پیروزی✔️
-- ذخیره سازی حرکت پازلها در هر مرحله✔️
+Completed stages marked in green ✔️
+Puzzle shuffle at the start of the stage or after pressing the reset button (again) ✔️
+Reduced APK file size ✔️
+Unity Project Requirements:
 
-**موراد اضافه انجام شده**
+This project uses the Realm database. The Realm package must be installed in the project.
 
-- سبز رنگ شده مراحل انجام شده✔️ 
-- بٌر خوردن پازل هنگام شروع مرحله و یا پس از زدن دکمه بازنشانی (دوباره)✔️
-- کاهش سایز فایل apk✔️
-
-
-**موارد لازم برای اجرای پرژه در unity**
-
-در این پروژه از دیتابیس realm استفاده شده. پکیج مربوط به realm باید در پروژه نصب شود.
- 
-نصب و استفاده از realm در unity :
-
-از ip خارج از ایران استفاده کنید.
+Installing and Using Realm in Unity:
 
 https://www.mongodb.com/docs/atlas/device-sdks/sdk/dotnet/unity/
 
 Install >> Manually Install a Tarball
+Follow steps 1 and 2.
 
-گزینه 1 و 2 رو انجام بدید و تمام.
+Downloadable APK:
 
-ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-
-آخرین نسخه فایل apk رو میتونید از بخش release دریافت کنید.
-
+The latest APK file can be downloaded from the release section.
 https://github.com/khonakdarigit/FicolandGames/releases
+
