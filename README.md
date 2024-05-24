@@ -1,23 +1,5 @@
 # Ficoland Games
-Must-Have Features:
 
-Two puzzle game levels completed by moving puzzle pieces ✔️
-
-Stage number, reset button, and main menu button ✔️
-
-Victory screen ✔️
-
-Enhancing Features:
-
-Background music ✔️
-Sound effects for puzzle movement, reset, and victory screen ✔️
-Puzzle move saving for each stage ✔️
-Additional Completed Features:
-
-Completed stages marked in green ✔️
-Puzzle shuffle at the start of the stage or after pressing the reset button (again) ✔️
-Reduced APK file size ✔️
-Unity Project Requirements:
 
 This project uses the Realm database. The Realm package must be installed in the project.
 
